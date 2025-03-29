@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font: 1rem/1.6 'Poppins', sans-serif;
+  color: green;
+  background-color: black;
+  text-align: left;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: darkslategrey;
+}
+
+.navigation a{
+  color: lightgreen;
+  margin-left: 20px;
+}
+
+.navigation a:hover {
+  color: white;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  height: 150px;
+}
+
+.main h1 {
+  text-align: center;
+}
+
+.main p {
+  text-indent: 20px;
+  text-align: center;
+}
+
+.sosmed {
+  margin-top: -20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.sosmed p {
+  display: inline;
+  font-size: 0.8rem;
+}
+
+.footer p {
+  text-align: center;
+  color: red;
+}
+
+/* About Page */
+
+.about {
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.warning h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: -80px;
+  color: red;
+}
+
+.warning p {
+  text-align: center;
+  line-height: 5px;
+}
+
+.warningimage {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* margin page */
+
+.satu {
+  height: 200px;
+  width: 150px;
+  background-color: rgb(0, 58, 0);
+  color: black;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.dua {
+  height: 150px;
+  width: 100px;
+  background-color: rgb(0, 88, 0);
+  color: black;
+  margin-left: 200px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.tiga {
+  height: 100px;
+  width: 50px;
+  background-color: rgb(0, 99, 0);
+  color: black;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: 300px;
+}
+
+.empat {
+  height: 420px;
+  width: 400px;
+  margin: 100px auto;
+  background-color: green;
+  color: black;
+}
+
+.lima {
+  height: 180px;
+  width: 180px;
+  background-color: black;
+  margin-left: 13px;
+}
+
+.enam {
+  height: 180px;
+  width: 180px;
+  background-color: black;
+  margin-left: 9px;
+}
+
+.lima, .enam {
+  display: inline-block;
+}
+
+.tujuh {
+  height: 180px;
+  width: 180px;
+  background-color: black;
+  margin-left: 13px;
+}
+
+.delapan {
+  height: 180px;
+  width: 180px;
+  background-color: black;
+  margin-left: 9px;
+}
+
+.tujuh, .delapan {
+  display: inline-block;
+}
+
+.tujuhdelapan {
+  margin-top: 10px;
+}
+
+
+/* Bagian Contact */
+
+th, td {
+  padding: 5px;
+}
+
+.contact {
+  background-color: transparent;
+}
+
+.alamat, .kontak {
+  display: inline-block;
+  height: 317px;
+}
+
+.alamat {
+  margin-left: 40px;
+}
+
+.kontak {
+  margin-left: 20px;
+}
+
+
+table {
+  font-size: 1rem;
+  width: 550px;
+}
+
+table th {
+  font-size: 2.5rem;
+  text-align: center;
+  color: red;
+}
+
+
+td, th {
+  filter: blur(5px);
+  cursor: pointer;
+}
+
+td:hover {
+  filter: none;
+}
+
+th:hover {
+  filter: none;
+}
